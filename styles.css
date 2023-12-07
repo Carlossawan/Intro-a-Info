@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Light background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card h2 {
+    text-align: center;
+    color: #333; /* Dark text color */
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card button {
+    padding: 12px;
+    background-color: #007bff; /* Primary button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.card-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-links a {
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.card-links a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
+}
+
+.forgot-password {
+    font-size: 14px;
+}
+
+.sign-up {
+    font-size: 14px;
+}
