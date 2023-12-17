@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.header-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-buttons button {
+    margin-left: 10px;
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header-buttons button.sign-in {
+    background-color: #337ab7; 
+}
+
+.header-buttons button:hover {
+    background-color: #45a049; 
+}
+
+.header-buttons button.sign-in:hover {
+    background-color: #286090; 
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 250px; 
+    min-height: 350px; 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product h2 {
+    color: #333;
+}
+
+.product ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1; 
+}
+
+.product li {
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    align-self: flex-end; 
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
