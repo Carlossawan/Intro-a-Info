@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" type="text/css" href="profile.css">
+</head>
+<body>
+
+    <header>
+        <h1>User Profile</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Settings</a>
+        <a href="#">Log Out</a>
+    </nav>
+
+    <section>
+        <div class="profile-info">
+            <div class="user-details" id="userDetails">
+                <h2>John Doe</h2>
+                <p>Email: john.doe@example.com</p>
+                <p>Location: City, Country</p>
+                <button onclick="editProfile()">Change Details</button>
+            </div>
+        </div>
+
+        <h2>About Me</h2>
+        <p>This is a brief description about the user. Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+
+        <h2>Interests</h2>
+        <ul>
+            <li>Interest 1</li>
+            <li>Interest 2</li>
+            <li>Interest 3</li>
+        </ul>
+    </section>
+
+    <!-- Editing Form -->
+<section class="edit-form" id="editForm">
+    <h2>Edit Profile</h2>
+    <form id="profileEditForm" onsubmit="saveChanges(); return false;">
+        <label for="editName">Name:</label>
+        <input type="text" id="editName" name="editName" required>
+        
+        <label for="editEmail">Email:</label>
+        <input type="email" id="editEmail" name="editEmail" required>
+        
+        <label for="editLocation">Location:</label>
+        <input type="text" id="editLocation" name="editLocation" required>
+
+        <label for="editAboutMe">About Me:</label>
+        <textarea id="editAboutMe" name="editAboutMe" rows="4" required></textarea>
+
+        <label for="editInterests">Interests (comma-separated):</label>
+        <input type="text" id="editInterests" name="editInterests" required>
+        
+        <button type="submit">Save Changes</button>
+    </form>
+</section>
+
+    <script src="profile.js"></script>
+
+</body>
+</html>
