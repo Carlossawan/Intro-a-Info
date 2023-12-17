@@ -1,11 +1,11 @@
-/* styles.css */
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Light background color */
+    background-color: #f0f0f0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -19,7 +19,7 @@ body {
 
 .card h2 {
     text-align: center;
-    color: #333; /* Dark text color */
+    color: #333; 
 }
 
 .card form {
@@ -36,7 +36,7 @@ body {
 
 .card button {
     padding: 12px;
-    background-color: #007bff; /* Primary button color */
+    background-color: grey;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -44,7 +44,7 @@ body {
 }
 
 .card button:hover {
-    background-color: #0056b3; /* Darker color on hover */
+    background-color: #0056b3;
 }
 
 .card-links {
@@ -55,13 +55,13 @@ body {
 
 .card-links a {
     text-decoration: none;
-    color: #007bff;
+    color: grey;
     cursor: pointer;
 }
 
 .card-links a:hover {
     text-decoration: underline;
-    color: #0056b3; /* Darker color on hover */
+    color: #0056b3;
 }
 
 .forgot-password {
